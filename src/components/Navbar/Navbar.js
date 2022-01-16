@@ -4,7 +4,7 @@ import { SiPolywork, SiSpotify } from "react-icons/si";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between bg-transparent fixed w-full text-white">
+    <div className="flex justify-between bg-transparent fixed z-10 w-full text-white">
       <span className="p-4">Xalone</span>
       <ul className="flex py-4">
         <li className="px-5">About</li>

@@ -1,12 +1,13 @@
-import Background1 from "../../assets/images/xalone background 2.png";
+import Home from "../../components/Home/Home";
+import About from "../../components/About/About";
+import Contact from "../../components/Contact/Contact";
 
 const Main = () => {
   return (
-    <div className="text-white bg-[#222222] w-full h-screen">
-      <div>
-        <img src={Background1} className="w-screen h-screen" alt="background" />
-      </div>
-      <div>hello</div>
+    <div>
+      <Home></Home>
+      <About></About>
+      <Contact></Contact>
     </div>
   );
 };
