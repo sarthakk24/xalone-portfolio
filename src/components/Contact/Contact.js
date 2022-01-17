@@ -3,9 +3,11 @@ import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
   return (
-    <div className="text-white p-20">
-      <div>Contact Me</div>
-      <div className="flex justify-around">
+    <div className="text-white p-20 flex flex-col justify-center items-center">
+      <div className="text-4xl underline underline-offset-2 text-[#F0A500] font-medium">
+        Get in Touch
+      </div>
+      <div className="flex justify-around mt-12">
         <ContactInfo></ContactInfo>
         <ContactForm></ContactForm>
       </div>

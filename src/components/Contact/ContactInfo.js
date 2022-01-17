@@ -18,13 +18,22 @@ const ContactInfo = () => {
       </div>
       <div>
         <div className="text-xl m-2 flex">
-          <MdEmail /> <span className="ml-1">xalonemusic153@gmail.com</span>
+          <span className="pt-1">
+            <MdEmail />
+          </span>{" "}
+          <span className="ml-1">xalonemusic153@gmail.com</span>
         </div>
         <div className="text-xl m-2 flex">
-          <AiFillPhone /> <span className="ml-1">+91 9429068502</span>
+          <span className="pt-1">
+            <AiFillPhone />
+          </span>{" "}
+          <span className="ml-1">+91 9429068502</span>
         </div>
         <div className="text-xl m-2 flex">
-          <SiGooglemaps /> <span className="ml-1">Vadodara,Gujarat,India</span>
+          <span className="pt-1">
+            <SiGooglemaps />
+          </span>{" "}
+          <span className="ml-1">Vadodara,Gujarat,India</span>
         </div>
       </div>
     </div>
