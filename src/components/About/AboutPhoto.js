@@ -10,7 +10,7 @@ const AboutPhoto = () => {
         <img
           src={Profile}
           alt="xalone profile"
-          className="h-96 brightness-[0.8] w-96"
+          className="h-96 brightness-[0.8] w-96 rounded-3xl"
         />
       </div>
     </div>

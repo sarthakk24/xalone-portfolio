@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="Section2"
-      className="text-white flex justify-evenly items-center m-8 p-20"
+      className="text-white flex justify-evenly items-center m-20 p-20 bg-[#142121]"
     >
       <AboutPhoto />
       <AboutContent />
