@@ -3,7 +3,7 @@ const Home = () => {
   // const img2 = "https://i.postimg.cc/HkVHxDQM/xalone-background-2.png";
   // const img3 = "https://i.postimg.cc/VN0Y7Qvw/xalone-background-3.png";
   return (
-    <div className="relative" id="section-1">
+    <div className="relative" id="Section1">
       <div
         className={
           "text-white w-full h-screen bg-[url('https://i.postimg.cc/HkVHxDQM/xalone-background-2.png')] bg-center bg-no-repeat bg-cover absolute brightness-75 -z-10"

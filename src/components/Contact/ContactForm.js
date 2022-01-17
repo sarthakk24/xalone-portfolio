@@ -1,6 +1,6 @@
-import FormInput from "../UI/FormInput";
-import FormSubmit from "../UI/FormSubmit";
-import FormTextArea from "../UI/FormTextArea";
+import FormInput from "../UI/ContactForm/FormInput";
+import FormSubmit from "../UI/ContactForm/FormSubmit";
+import FormTextArea from "../UI/ContactForm/FormTextArea";
 
 const ContactForm = () => {
   return (
