@@ -15,7 +15,7 @@ const NavbarLinks = (props) => {
         spy={true}
         smooth={true}
         duration={1000}
-        offset={props.logo ? 0 : 50}
+        offset={props.contact ? 50 : 0}
       >
         {props.data}
       </Link>

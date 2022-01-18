@@ -5,12 +5,12 @@ import { SiGooglemaps } from "react-icons/si";
 
 const ContactInfo = () => {
   return (
-    <div className="bg-[#485757] p-8 flex flex-col justify-center items-center">
+    <div className="bg-main p-8 flex flex-col justify-center items-center">
       <div className="text-3xl my-6 font-semibold">Contact Information</div>
       <img
         src={profile}
         alt="profile"
-        className="rounded-full h-60 mx-28 border-2 border-black"
+        className="rounded-full brigtness-[1.2] h-60 mx-28 border-2 border-main"
       />
 
       <div className="max-w-sm m-4 font-medium text-lg">

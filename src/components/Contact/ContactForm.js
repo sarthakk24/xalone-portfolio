@@ -6,7 +6,7 @@ const ContactForm = () => {
   return (
     <div className="bg-[#142121] grow min-w-[850px] flex items-center flex-col justify-center">
       <div className="flex items-center flex-col">
-        <div className="text-3xl mb-9 font-medium">Get in Touch</div>
+        <div className="text-3xl mb-9 font-medium">Connect Here</div>
         <form className="grid grid-cols-2">
           <FormInput type="text" placeholder="First Name" />
           <FormInput type="text" placeholder="Last Name" />

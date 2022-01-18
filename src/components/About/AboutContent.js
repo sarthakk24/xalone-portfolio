@@ -1,7 +1,7 @@
 const AboutContent = () => {
   return (
     <div className="w-[40%] mt-16">
-      <div className="text-3xl mb-10 text-[#F0A500] font-medium">About</div>
+      <div className="text-3xl mb-10 text-lightest font-medium">About</div>
       <div>
         With Over 2 years of experience as an assistant music producer at Arohi
         Kalavrund Sanskrutik Vikas Trust, where I gained valuable practical
@@ -22,7 +22,7 @@ const AboutContent = () => {
       <br />
       <div>
         Keep Spreading Love and positivity <br />
-        <span className="text-[#F0A500]">~Jaimeet Modhia (Xalone)</span>
+        <span className="text-lightest">~Jaimeet Modhia (Xalone)</span>
       </div>
     </div>
   );
