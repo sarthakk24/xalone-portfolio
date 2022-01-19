@@ -11,7 +11,7 @@ import { SiPolywork } from "react-icons/si";
 const Footer = () => {
   return (
     <div className="bg-main min-h-[200px] flex justify-center items-center text-white">
-      <ul className="flex justify-evenly w-full">
+      <ul className="flex justify-center items-center w-full flex-col md:justify-evenly md:flex-row">
         <FooterSocial
           icon={Discord}
           name="Discord"
@@ -35,16 +35,16 @@ const Footer = () => {
         <FooterSocial
           icon={Soundcloud}
           name="SoundCloud"
-          href="https://soundcloud.com/xalone0153"
+          href="mailto:xalonemusic153@gmail.com"
         />
-        <li className="text-lightest text-lg">
+        <li className="text-lightest text-lg mb-3 md:mb-0 mt-3 md:mt-0">
           <a
             href="https://www.polywork.com/xalone"
             className="flex"
             target="_blank"
             rel="noreferrer"
           >
-            <span className="pr-2 pt-2">
+            <span className="pr-2 pt-2 ">
               <SiPolywork />
             </span>
             Polywork

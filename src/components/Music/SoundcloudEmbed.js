@@ -1,9 +1,9 @@
 const SoundcloudEmbed = (props) => {
   return (
-    <div className="px-2 brightness-90">
+    <div className="px-4 brightness-90 ">
       <iframe
         title={props.key}
-        className="h-[250px] w-full"
+        className="h-[250px] w-full shadow-[1px_2px_3px_4px_rgba(12,12,12,0.2)]"
         scrolling="no"
         frameBorder="no"
         auto_play="false"

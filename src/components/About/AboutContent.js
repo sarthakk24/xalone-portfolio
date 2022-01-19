@@ -1,7 +1,9 @@
 const AboutContent = () => {
   return (
-    <div className="w-[40%] mt-16">
-      <div className="text-3xl mb-10 text-lightest font-medium">About</div>
+    <div className="w-[80%] lg:w-[40%] mt-16 mb-8 md:mb-0">
+      <div className="text-3xl mb-10 text-lightest max-h-screen font-medium">
+        About
+      </div>
       <div>
         With Over 2 years of experience as an assistant music producer at Arohi
         Kalavrund Sanskrutik Vikas Trust, where I gained valuable practical

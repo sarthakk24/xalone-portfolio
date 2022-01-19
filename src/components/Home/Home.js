@@ -1,17 +1,20 @@
 import background1 from "../../assets/images/xalone_background_2.jpg";
 
 const Home = () => {
+  const width = window.innerWidth;
   return (
     <div className="relative" id="Section1">
       <div
         className={
-          "text-white w-screen h-screen -z-10 flex justify-center items-center"
+          "text-white w-screen -z-10 flex justify-center items-center h-[" +
+          width +
+          "px] md:h-screen"
         }
       >
         <img
           src={background1}
           alt="background"
-          className="h-full w-full brightness-90 object-cover"
+          className={"w-full brightness-90 object-cover h-full"}
         />
       </div>
     </div>

@@ -4,9 +4,11 @@ import FormTextArea from "../UI/ContactForm/FormTextArea";
 
 const ContactForm = () => {
   return (
-    <div className="bg-[#142121] grow min-w-[850px] flex items-center flex-col justify-center">
+    <div className="bg-[#142121] grow w-[100%] lg:w-[80%] flex items-center flex-col justify-center mt-5 lg:mt-0">
       <div className="flex items-center flex-col">
-        <div className="text-3xl mb-9 font-medium">Connect Here</div>
+        <div className="text-3xl mb-9 font-medium mt-5 lg:mt-0">
+          Connect Here
+        </div>
         <form className="grid grid-cols-2">
           <FormInput type="text" placeholder="First Name" />
           <FormInput type="text" placeholder="Last Name" />
