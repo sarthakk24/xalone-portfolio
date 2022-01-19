@@ -10,11 +10,17 @@ const ContactForm = () => {
           Connect Here
         </div>
         <form
-          className="grid grid-cols-2"
-          action="https://relayforms.com/submit/3abyt76BvDHamIKoSGpn"
-          method="POST"
-          name="Xalone Contact Form"
+          className="contactForm grid grid-cols-2"
+          name="XaloneContactForm"
+          method="post"
+          data-netlify="true"
+          onSubmit="submit"
         >
+          <input
+            type="hidden"
+            name="Xalone Contact Form"
+            value="XaloneContactForm"
+          />
           <FormInput type="text" placeholder="First Name" name="First Name" />
           <FormInput type="text" placeholder="Last Name" name="Last Name" />
           <FormInput
