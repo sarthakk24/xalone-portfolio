@@ -9,12 +9,21 @@ const ContactForm = () => {
         <div className="text-3xl mb-9 font-medium mt-5 lg:mt-0">
           Connect Here
         </div>
-        <form className="grid grid-cols-2">
-          <FormInput type="text" placeholder="First Name" />
-          <FormInput type="text" placeholder="Last Name" />
-          <FormInput type="email" placeholder="Email" className="col-span-2" />
-          <FormInput type="number" placeholder="Phone" />
-          <FormInput type="url" placeholder="Attach Files (URL)" />
+        <form className="grid grid-cols-2" data-netlify="true" method="POST">
+          <FormInput type="text" placeholder="First Name" name="First Name" />
+          <FormInput type="text" placeholder="Last Name" name="Last Name" />
+          <FormInput
+            type="email"
+            placeholder="Email"
+            className="col-span-2"
+            name="Email"
+          />
+          <FormInput type="text" placeholder="Phone" name="Phone Number" />
+          <input
+            type="file"
+            name="Attached Files"
+            className="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100 p-3"
+          />
           <FormTextArea />
           <FormSubmit />
         </form>
