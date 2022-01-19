@@ -6,8 +6,8 @@ const NavbarLinks = (props) => {
     <li
       className={
         props.logo
-          ? "cursor-pointer hover-underline-animation"
-          : "px-5 cursor-pointer hover-underline-animation"
+          ? "cursor-pointer animation1"
+          : "px-5 cursor-pointer animation1"
       }
     >
       <Link
@@ -15,7 +15,7 @@ const NavbarLinks = (props) => {
         spy={true}
         smooth={true}
         duration={1000}
-        offset={props.contact ? 50 : 0}
+        offset={props.contact ? 20 : 0}
       >
         {props.data}
       </Link>

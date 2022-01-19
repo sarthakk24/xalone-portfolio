@@ -1,9 +1,12 @@
+import FooterSocial from "./FooterSocial";
+
+// icons import
 import Discord from "../../assets/svg/discord.svg";
 import Instagram from "../../assets/svg/instagram.svg";
 import spotify from "../../assets/svg/spotify.svg";
 import Gmail from "../../assets/svg/gmail.svg";
+import Soundcloud from "../../assets/svg/soundcloud.svg";
 import { SiPolywork } from "react-icons/si";
-import FooterSocial from "./FooterSocial";
 
 const Footer = () => {
   return (
@@ -27,7 +30,12 @@ const Footer = () => {
         <FooterSocial
           icon={Gmail}
           name="Gmail"
-          href="xalonemusic153@gmail.com"
+          href="mailto:xalonemusic153@gmail.com"
+        />
+        <FooterSocial
+          icon={Soundcloud}
+          name="SoundCloud"
+          href="https://soundcloud.com/xalone0153"
         />
         <li className="text-lightest text-lg">
           <a

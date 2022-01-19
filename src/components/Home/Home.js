@@ -1,7 +1,6 @@
+import background1 from "../../assets/images/xalone_background_2.jpg";
+
 const Home = () => {
-  // const img1 = "https://i.postimg.cc/Kvcx6gjJ/xalone-background-1.png";
-  const img2 = "https://i.postimg.cc/wMFJqg0s/SPOILER-Xalone-leaf-text.jpg";
-  // const img3 = "https://i.postimg.cc/VN0Y7Qvw/xalone-background-3.png";
   return (
     <div className="relative" id="Section1">
       <div
@@ -10,7 +9,7 @@ const Home = () => {
         }
       >
         <img
-          src={img2}
+          src={background1}
           alt="background"
           className="h-full w-full brightness-90 object-cover"
         />

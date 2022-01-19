@@ -1,9 +1,12 @@
-import { FaDiscord } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { SiPolywork, SiSpotify } from "react-icons/si";
 import NavbarLinks from "../UI/NavbarItems/NavbarLinks";
 import NavbarIcon from "../UI/NavbarItems/NavbarIcons";
 import { useState } from "react";
+
+// imported icons
+import { FaDiscord } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { SiPolywork, SiSpotify } from "react-icons/si";
+import { ImSoundcloud } from "react-icons/im";
 
 const Navbar = () => {
   const [nav, setNav] = useState("bg-transparent");
@@ -44,6 +47,10 @@ const Navbar = () => {
         <NavbarIcon
           icon={SiSpotify}
           href="https://open.spotify.com/user/wt082rqavs34vnpov07868win"
+        />
+        <NavbarIcon
+          icon={ImSoundcloud}
+          href="https://soundcloud.com/xalone0153"
         />
         <NavbarIcon
           icon={SiPolywork}

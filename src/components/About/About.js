@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="Section2"
-      className="text-light flex justify-evenly items-center m-20 p-20 bg-[#1B3431] h-screen drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
+      className="text-light flex justify-evenly items-center m-20 p-20 bg-[#1B3431] h-screen drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] w-[90%]"
     >
       <AboutPhoto />
       <AboutContent />

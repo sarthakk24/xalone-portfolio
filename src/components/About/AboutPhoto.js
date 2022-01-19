@@ -1,4 +1,4 @@
-import Profile from "../../assets/images/xalone profile 2.png";
+import ProfileJpg from "../../assets/images/xalone profile 2.png";
 
 const AboutPhoto = () => {
   return (
@@ -11,7 +11,7 @@ const AboutPhoto = () => {
       </div>
       <div>
         <img
-          src={Profile}
+          src={ProfileJpg}
           alt="xalone profile"
           className="h-96 w-96 rounded-3xl"
         />
