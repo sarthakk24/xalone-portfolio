@@ -12,9 +12,9 @@ const ContactForm = () => {
         <form
           className="contactForm grid grid-cols-2"
           name="xalone"
-          method="post"
-          data-netlify="true"
+          method="POST"
           onSubmit="submit"
+          netlify
         >
           <input type="hidden" name="form-name" value="xalone" />
           <FormInput type="text" placeholder="First Name" name="First Name" />
