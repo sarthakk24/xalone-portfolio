@@ -11,7 +11,7 @@ const ContactForm = () => {
         </div>
         <form
           className="grid grid-cols-2"
-          data-netlify="true"
+          action="https://relayforms.com/submit/3abyt76BvDHamIKoSGpn"
           method="POST"
           name="Xalone Contact Form"
         >
