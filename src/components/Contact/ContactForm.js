@@ -9,7 +9,12 @@ const ContactForm = () => {
         <div className="text-3xl mb-9 font-medium mt-5 lg:mt-0">
           Connect Here
         </div>
-        <form className="grid grid-cols-2" data-netlify="true" method="POST">
+        <form
+          className="grid grid-cols-2"
+          data-netlify="true"
+          method="POST"
+          name="Xalone Contact Form"
+        >
           <FormInput type="text" placeholder="First Name" name="First Name" />
           <FormInput type="text" placeholder="Last Name" name="Last Name" />
           <FormInput
