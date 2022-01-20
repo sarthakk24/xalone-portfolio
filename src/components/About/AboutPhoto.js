@@ -6,7 +6,7 @@ const AboutPhoto = () => {
       <div className="text-3xl underline underline-offset-2 mb-3 text-light font-semibold">
         Jaimeet Modhia
       </div>
-      <div className="text-2xl text-light font-medium mb-20">
+      <div className="text-2xl text-light font-medium mb-16">
         ~ Music Producer
       </div>
       <div>
