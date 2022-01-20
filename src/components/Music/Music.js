@@ -10,11 +10,6 @@ const Music = () => {
       drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
       >
         <SoundcloudEmbed data={data[0]} />
-        <SoundcloudEmbed data={data[1]} />
-        <SoundcloudEmbed data={data[0]} />
-        <SoundcloudEmbed data={data[1]} />
-        <SoundcloudEmbed data={data[0]} />
-        <SoundcloudEmbed data={data[1]} />
       </div>
     </div>
   );

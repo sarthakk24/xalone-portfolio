@@ -10,13 +10,11 @@ const ContactForm = () => {
           Connect Here
         </div>
         <form
+          action="https://formsubmit.co/xalonemusic153@gmail.com"
           className="contactForm grid grid-cols-2"
           name="xalone"
           method="POST"
-          onSubmit="submit"
-          netlify
         >
-          <input type="hidden" name="form-name" value="xalone" />
           <FormInput type="text" placeholder="First Name" name="First Name" />
           <FormInput type="text" placeholder="Last Name" name="Last Name" />
           <FormInput
@@ -26,10 +24,10 @@ const ContactForm = () => {
             name="Email"
           />
           <FormInput type="text" placeholder="Phone" name="Phone Number" />
-          <input
-            type="file"
-            name="Attached Files"
-            className="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100 p-3"
+          <FormInput
+            type="text"
+            placeholder="Attach Files(Url)"
+            name="Attached Files (url)"
           />
           <FormTextArea />
           <FormSubmit />
