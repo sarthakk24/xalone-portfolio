@@ -39,7 +39,7 @@ const Footer = () => {
           className="pl-9 md:pl-0"
           icon={Soundcloud}
           name="SoundCloud"
-          href="mailto:xalonemusic153@gmail.com"
+          href="https://soundcloud.com/xalone0153"
         />
         <li className="text-lightest text-lg mb-3 md:mb-0 mt-3 md:mt-0">
           <a
