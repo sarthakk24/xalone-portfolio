@@ -1,5 +1,6 @@
 import SoundcloudEmbed from "./SoundcloudEmbed";
 import data from "../../assets/music data/data";
+import ProjectCommingSoon from "./ProjectComingSoon";
 
 const Music = () => {
   return (
@@ -10,6 +11,7 @@ const Music = () => {
       drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
       >
         <SoundcloudEmbed data={data[0]} />
+        <ProjectCommingSoon />
       </div>
     </div>
   );

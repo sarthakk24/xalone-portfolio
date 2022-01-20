@@ -18,21 +18,25 @@ const Footer = () => {
           href="https://discord.gg/Hs2kkSkVdh"
         />
         <FooterSocial
+          className="pl-6 md:pl-0"
           icon={Instagram}
           name="Instagram"
           href="https://www.instagram.com/xalone153/"
         />
         <FooterSocial
+          className="pr-2 md:pr-0"
           icon={spotify}
           name="Spotify"
           href="https://open.spotify.com/user/wt082rqavs34vnpov07868win"
         />
         <FooterSocial
+          className="pr-4 md:pr-0"
           icon={Gmail}
           name="Gmail"
           href="mailto:xalonemusic153@gmail.com"
         />
         <FooterSocial
+          className="pl-9 md:pl-0"
           icon={Soundcloud}
           name="SoundCloud"
           href="mailto:xalonemusic153@gmail.com"

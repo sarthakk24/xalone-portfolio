@@ -2,7 +2,7 @@ import ProfileJpg from "../../assets/images/xalone profile 2.png";
 
 const AboutPhoto = () => {
   return (
-    <div className="flex flex-col items-center mt-5 md:mt-0">
+    <div className="flex flex-col items-center mt-20 md:mt-0">
       <div className="text-3xl underline underline-offset-2 mb-3 text-light font-semibold">
         Jaimeet Modhia
       </div>

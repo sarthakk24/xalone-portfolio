@@ -24,11 +24,13 @@ const ContactForm = () => {
             name="Email"
           />
           <FormInput type="text" placeholder="Phone" name="Phone Number" />
-          <FormInput
+          <input
+            className=" rounded-lg p-2 m-2 bg-main border-main border-2 text-light placeholder:text-[#DADADA]"
+            name="Attached Files (url)"
             type="text"
             placeholder="Attach Files(Url)"
-            name="Attached Files (url)"
           />
+
           <FormTextArea />
           <FormSubmit />
         </form>
