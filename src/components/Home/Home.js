@@ -6,7 +6,6 @@ import background4 from "../../assets/images/xalone_background_5.png";
 
 const Home = () => {
   const [background, setBackground] = useState(background1);
-
   useEffect(() => {
     const allBackgrounds = [background1, background2, background3, background4];
     const interval = setInterval(() => {

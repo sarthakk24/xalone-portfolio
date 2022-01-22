@@ -11,11 +11,12 @@ const data = [
   },
   {
     srcApi:
-      "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/913228855&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-    srcMusic: "https://soundcloud.com/charlie-seddon-107580247/super-max",
-    title: "Super Max",
-    profile: "https://soundcloud.com/charlie-seddon-107580247",
-    userName: "Charlie Seddon",
+      "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1201684027&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E",
+    srcMusic:
+      "https://soundcloud.com/xalone0153/fade-into-a-dream-x-tightrope-instrumental-remake-by-xalone",
+    title: "Fade Into A Dream X Tightrope (Instrumental Remake ) - By Xalone",
+    profile: "https://soundcloud.com/xalone0153",
+    userName: "Xalone",
     key: 1,
   },
 ];
