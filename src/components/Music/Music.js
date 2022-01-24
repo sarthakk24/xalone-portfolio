@@ -12,6 +12,7 @@ const Music = () => {
       >
         <SoundcloudEmbed data={data[0]} />
         <SoundcloudEmbed data={data[1]} />
+        <SoundcloudEmbed data={data[2]} />
         <ProjectCommingSoon />
       </div>
     </div>

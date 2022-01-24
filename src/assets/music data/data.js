@@ -19,6 +19,16 @@ const data = [
     userName: "Xalone",
     key: 1,
   },
+  {
+    srcApi:
+      "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1202743444&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E",
+    srcMusic:
+      "https://soundcloud.com/xalone0153/itll-be-okay-x-lie-to-me-remix-by-xalone",
+    title: "It'll Be Okay X Lie to Me (Remix) - By Xalone",
+    profile: "https://soundcloud.com/xalone0153",
+    userName: "Xalone",
+    key: 2,
+  },
 ];
 
 export default data;
